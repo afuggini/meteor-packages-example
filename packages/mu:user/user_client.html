@@ -1,0 +1,9 @@
+<template name="Homepage">
+
+  <h1>Meteor Meetup</h1>
+
+  {{#each MU.User.list}}
+    {{fullName}} / {{email}}
+  {{/each}}
+
+</template>
